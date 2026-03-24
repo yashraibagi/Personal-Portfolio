@@ -16,6 +16,19 @@ pnpm workspace monorepo using TypeScript. Each package manages its own dependenc
 - **API codegen**: Orval (from OpenAPI spec)
 - **Build**: esbuild (CJS bundle)
 
+## Artifacts
+
+### `artifacts/portfolio` (`@workspace/portfolio`)
+
+Yash's personal portfolio website — a single-page React + Vite app with dark cyber/neon theme.
+
+- **Sections**: Hero (typing animation), About, Skills, Projects, Certifications, Soft Skills, Contact
+- **Animations**: Framer Motion, react-type-animation, react-parallax-tilt (card tilt), IntersectionObserver scroll reveals
+- **Form**: Contact form POSTing to `/api/contact` (stored in DB via `@workspace/api-server`)
+- **Images**: AI-generated hero images in `artifacts/portfolio/public/images/`
+- **Fonts**: Outfit (body) + Syne (headings) from Google Fonts
+- **Preview path**: `/`
+
 ## Structure
 
 ```text

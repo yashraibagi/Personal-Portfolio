@@ -1,0 +1,166 @@
+Create a full-stack portfolio website for a 3rd-year Computer Science and Design Engineering student.
+
+### 👤 Personal Details:
+- Name: Yash
+- Age: 21
+- Education: BE 3rd Year - Computer Science and Design Engineering
+- College: Tontadarya College of Engineering
+- CGPA: 7.3
+
+---
+
+### 🎯 Goal:
+Build a visually striking, modern, professional, and non-generic portfolio website that stands out. It should feel tech-forward, clean, interactive, and engaging with smooth animations and micro-interactions.
+
+---
+
+### 🧱 Tech Stack:
+Frontend:
+- HTML5, CSS3 (separate stylesheet)
+- JavaScript (vanilla or minimal libraries)
+- Optional: React (preferred for modern UI)
+- Use animations (GSAP / Framer Motion / CSS animations)
+
+Backend:
+- Node.js + Express
+- Contact form API (store messages or log them)
+
+Database (optional but preferred):
+- MongoDB (store contact messages)
+
+---
+
+### 🎨 Design Requirements:
+- Dark theme with neon/gradient accents (blue, purple, cyan)
+- Glassmorphism + soft shadows
+- Smooth scrolling and transitions
+- Animated hero section (typing effect or dynamic text)
+- Hover effects on cards
+- Responsive design (mobile + desktop)
+- Unique layout (NOT generic template)
+- Micro-interactions (button hover, card tilt, scroll animations)
+
+---
+
+### 📄 Sections to Include:
+
+#### 1. Hero Section
+- Large intro text: "Hi, I'm Yash"
+- Subtitle: "AI/ML Enthusiast | Full Stack Developer | Data Analyst"
+- Animated typing effect
+- CTA buttons: "View Projects", "Contact Me"
+
+---
+
+#### 2. About Me
+- Short professional summary
+- Highlight CGPA and college
+- Include hobbies:
+  - Exploring new technologies
+  - Cricket, Volleyball
+  - Dancing
+
+---
+
+#### 3. Skills Section (Categorized Cards)
+- Programming: Python, C++
+- Data Science: NumPy, Pandas, Matplotlib, Scikit-Learn
+- AI/ML: Machine Learning, Deep Learning, Regression, Classification, Clustering, Generative AI
+- Web Development: Full Stack Development
+
+Add:
+- Skill bars or animated progress indicators
+- Icons for each category
+
+---
+
+#### 4. Projects Section (Card Layout with Hover Effects)
+Include 3 projects:
+
+1. Customer Churn Prediction
+   - ML model to predict customer retention
+
+2. Spam Email Detection
+   - Classification model
+
+3. Credit Card Customer & Transaction Analytics Dashboard
+   - Data visualization dashboard
+
+Each project card should have:
+- Title
+- Description
+- Tech stack
+- Buttons: "View Code" / "Live Demo"
+
+---
+
+#### 5. Certifications Section
+Display as cards:
+- Career Essentials in Generative AI (Microsoft & LinkedIn Learning)
+- GenAI Powered Data Analytics (Tata - Forage)
+- Hashgraph Developer Certification
+- Python Course (Lets Upgrade)
+- HTML & CSS Course (Lets Upgrade)
+- Stock Market Advanced Trading
+
+---
+
+#### 6. Soft Skills Section
+- Problem-Solving
+- Team Collaboration
+- Communication Skills
+- Time Management
+- Adaptability
+- Attention to Detail
+
+Show as icons or animated badges
+
+---
+
+#### 7. Contact Section
+- Contact form:
+  - Name
+  - Email
+  - Message
+- Backend API to handle form submission
+- Show success message after submit
+
+---
+
+### ⚙️ Features to Implement:
+- Smooth scrolling navigation
+- Sticky navbar with active section highlight
+- Scroll animations (fade-in, slide-up)
+- Button ripple or glow effects
+- Card tilt on hover
+- Typing animation in hero section
+- Loading animation
+
+---
+
+### 📁 File Structure:
+- /frontend
+  - index.html OR React app
+  - styles.css
+  - script.js
+- /backend
+  - server.js
+  - routes/contact.js
+  - models/contact.js
+
+---
+
+### 🚀 Output Requirements:
+- Provide complete working code
+- Separate CSS file
+- Clean and readable code
+- Comments explaining important parts
+- Instructions to run locally
+
+---
+
+### ⭐ Extra:
+- Make UI feel premium and unique (NOT like a template)
+- Add subtle animations everywhere
+- Focus on modern UI/UX
+- Ensure it looks impressive for recruiters

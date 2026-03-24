@@ -1,0 +1,18 @@
+packages:
+  "framer-motion": "For advanced page transitions, scroll-triggered animations, and smooth visual effects."
+  "react-type-animation": "For the animated typing effect in the hero section."
+  "react-parallax-tilt": "For the 3D hover tilt effect on project cards."
+  "react-hook-form": "For robust contact form state management."
+  "@hookform/resolvers": "For integrating Zod validation with react-hook-form."
+
+images:
+  - path: "artifacts/portfolio/public/images/cyber-bg.png"
+    description: "Deep dark futuristic cyberspace background with subtle glowing neon cyan and purple grid lines, out of focus particle lights, highly atmospheric and premium."
+    aspect_ratio: "16:9"
+  - path: "artifacts/portfolio/public/images/avatar-glow.png"
+    description: "Abstract stylized portrait silhouette of a young male software developer with glowing neon rim light in cyan and magenta against a pure black background."
+    aspect_ratio: "1:1"
+
+notes:
+  - Using useSubmitContact from @workspace/api-client-react for contact form.
+  - Relying on native smooth scrolling with standard anchor tags since it is a single-page portfolio.

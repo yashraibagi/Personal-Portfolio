@@ -8,3 +8,28 @@
 export interface HealthStatus {
   status: string;
 }
+
+export interface ContactFormInput {
+  /**
+   * @minLength 1
+   * @maxLength 100
+   */
+  name: string;
+  email: string;
+  /**
+   * @minLength 1
+   * @maxLength 2000
+   */
+  message: string;
+}
+
+export interface ContactFormResponse {
+  success: boolean;
+  message: string;
+  id: number;
+}
+
+export interface ErrorResponse {
+  success: boolean;
+  error: string;
+}
