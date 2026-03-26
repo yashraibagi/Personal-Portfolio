@@ -87,18 +87,7 @@ export function Hero() {
             </div>
           </div>
           
-          {/* Floating badges */}
-          <motion.div 
-            animate={{ y: [0, -10, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
-            className="absolute top-10 right-0 glass-panel px-4 py-3 rounded-2xl flex items-center gap-3"
-          >
-            <div className="text-3xl">🎯</div>
-            <div>
-              <div className="text-sm font-bold text-foreground">CGPA</div>
-              <div className="text-xs text-neon-cyan font-mono">7.3/10</div>
-            </div>
-          </motion.div>
+          {/* Floating badges removed */}
         </motion.div>
         
       </div>

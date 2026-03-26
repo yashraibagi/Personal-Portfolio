@@ -1,4 +1,5 @@
-import { Github, Linkedin, Twitter } from "lucide-react";
+import { Github, Linkedin, Mail } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -17,13 +18,16 @@ export function Footer() {
         
         <div className="flex items-center gap-4">
           {[
-            { icon: Github, href: "#" },
-            { icon: Linkedin, href: "#" },
-            { icon: Twitter, href: "#" },
+            { icon: Github, href: "https://github.com/yashraibagi" },
+            { icon: Linkedin, href: "https://www.linkedin.com/in/yash-raibagi-aimldeveloper" },
+            { icon: Mail, href: "mailto:raibagiyash@gmail.com" },
+            { icon: FaWhatsapp, href: "https://wa.me/916362296206" },
           ].map((social, i) => (
             <a 
               key={i} 
               href={social.href}
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-white/5 border border-white/10 flex items-center justify-center text-muted-foreground hover:text-neon-cyan hover:border-neon-cyan hover:bg-neon-cyan/10 transition-all hover:-translate-y-1 hover:shadow-[0_0_15px_-3px_rgba(0,240,255,0.4)]"
             >
               <social.icon className="w-5 h-5" />
