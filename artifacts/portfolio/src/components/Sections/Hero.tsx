@@ -80,7 +80,7 @@ export function Hero() {
           <div className="relative w-80 h-80 rounded-full p-2 bg-gradient-to-br from-neon-cyan via-neon-purple to-neon-pink shadow-[0_0_50px_-10px_rgba(0,240,255,0.5)]">
             <div className="w-full h-full rounded-full bg-background overflow-hidden border-4 border-background flex items-center justify-center">
               <img 
-                src={`${import.meta.env.BASE_URL}images/avatar-glow.png`}
+                src={`${import.meta.env.BASE_URL}images/profile-pic.png`}
                 alt="Yash Avatar"
                 className="w-full h-full object-cover"
               />

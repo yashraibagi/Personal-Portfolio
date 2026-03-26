@@ -1,0 +1,44 @@
+
+> @workspace/api-server@0.0.0 dev C:\Users\yashr\OneDrive\Projects\Portfolio-Creator\artifacts\api-server
+> pnpm run build && pnpm run start
+
+
+> @workspace/api-server@0.0.0 build C:\Users\yashr\OneDrive\Projects\Portfolio-Creator\artifacts\api-server
+> node ./build.mjs
+
+
+  dist\index.mjs                   2.1mb
+  dist\pino-worker.mjs           153.5kb
+  dist\pino-file.mjs             142.1kb
+  dist\pino-pretty.mjs           114.6kb
+  dist\thread-stream-worker.mjs    7.3kb
+  ...and 5 more output files...
+
+Done in 2139ms
+
+> @workspace/api-server@0.0.0 start C:\Users\yashr\OneDrive\Projects\Portfolio-Creator\artifacts\api-server
+> node --env-file=../../.env --enable-source-maps ./dist/index.mjs
+
+[10:21:45.482] [32mINFO[39m (153992): [36mServer listening[39m
+    [35mport[39m: 5000
+[10:22:28.080] [32mINFO[39m (153992): [36mrequest completed[39m
+    [35mreq[39m: {
+      "id": 1,
+      "method": "HEAD",
+      "url": "/api/health"
+    }
+    [35mres[39m: {
+      "statusCode": 404
+    }
+    [35mresponseTime[39m: 4
+[10:22:28.082] [32mINFO[39m (153992): [36mrequest completed[39m
+    [35mreq[39m: {
+      "id": 2,
+      "method": "GET",
+      "url": "/api/health"
+    }
+    [35mres[39m: {
+      "statusCode": 404
+    }
+    [35mresponseTime[39m: 1
+^C ELIFECYCLE  Command failed with exit code 3221225786.
